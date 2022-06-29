@@ -3,20 +3,21 @@ package Tienda;
 
 
 public class Venta {
-    String descripcion;
-    int cantidad;
-    double precio;
-    double importe;
+   int id;
+   int cantidad;
+   double precio;
+   double importe;
+   String descripcion;
 
     public Venta() {
     }
 
-    public String getDescripcio() {
-        return descripcion;
+    public int getId() {
+        return id;
     }
 
-    public void setDescripcio(String descripcio) {
-        this.descripcion = descripcio;
+    public void setId(int id) {
+        this.id = id;
     }
 
     public int getCantidad() {
@@ -43,21 +44,14 @@ public class Venta {
         this.importe = importe;
     }
 
-    void setId(int selectedIndex) {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    public String getDescripcion() {
+        return descripcion;
     }
 
-    void setDescripcion(String toString) {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    public void setDescripcion(String descripcion) {
+        this.descripcion = descripcion;
     }
-
-    Object getDescripcion() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
-    }
-
-    boolean getId() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
-    }
-    
-    
+   
 }
+
+   
